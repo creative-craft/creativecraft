@@ -1,0 +1,128 @@
+/* this file provides theme-specific styles that affect the carousel
+ *
+ * these changes have been placed in a separate file because they are included
+ * in the control panel when the carousel is being previewed
+ *
+ * they cannot be included in slide-show.css because that is compiled
+ * automatically from slide-show.scss */
+
+/* fixes incorrect width created by the `slide' transition in the admin preview
+ * modal */
+.slide-show-render.slide-show {
+    margin-bottom: 22px;
+    position: relative;
+}
+.slide-show-render .slides {
+height: 468px !important;
+}
+.slide-show-render .slides li {
+width: 1020px !important;
+height: 468px !important;
+border: solid 0px;
+position: relative;
+}
+.slide-show-render-full .slide-image {
+max-height: 468px;
+max-width: 1020px;
+display: block;
+position: absolute;
+top: 0;
+left: 0;
+z-index: 1;
+}
+.slide-show-render-full .slide-content {
+width: 1020px;
+height: 468px;
+display: block;
+font-family: 'Questrial', sans-serif;
+}
+.slide-show-render-full .slide-overlay {
+background: none !important;
+left: 0;
+top: 0;
+height: 256px !important;
+width: 385px;
+padding: 50px 120px 0 50px;
+}
+.slide-show-render-full .slide-heading  {
+font-family: 'Questrial', sans-serif;
+font-weight: normal;
+font-size: 56px;
+
+text-shadow: none; 
+margin: 0 0 30px 0;
+}
+.slide-show-render-full .slide-text {
+font-family: 'Questrial', sans-serif;
+font-weight: normal;
+text-shadow: none; 
+padding-right: 100px !important;
+font-size: 16px;
+text-transform: uppercase;
+margin: 0 0 15px 0;
+}
+.slide-show-render-full .slide-button {
+
+}
+
+
+.slide-show-render .slide-button span {
+  background:  #312E29 !important;
+    border: 1px solid #312E29;
+    color: #FFFFFF !important;
+    cursor: pointer;
+    font-weight: 600;
+    height: 25px;
+    left: 0 !important;
+    line-height: 25px;
+    padding: 0 10px 0 10px;
+    text-transform: uppercase;
+    transition: all 150ms ease 0s;
+    white-space: nowrap !important;
+    width: auto !important;
+    z-index: 1;
+	display: block;
+	float: left;
+	font-size: 13px !important;
+	text-shadow: none;
+	letter-spacing: 1px;
+	font-family: 'Helvetica Neue',​Helvetica,​Arial,​Sans-Serif;	
+}
+
+
+
+.flex-direction-nav a {
+    background: url(../images/carouselControls_03.png) no-repeat  0 0 !important;
+    height: 35px !important;
+    margin: -17px 0 0 !important;
+    opacity: 0 !important;
+    width: 34px !important;
+   
+}
+.flex-direction-nav a.flex-prev {
+left: 0px !important;
+}
+.flex-direction-nav a.flex-next {
+    background: url(../images/carouselControls_06.png) no-repeat  0 0 !important;
+right: 0px !important;
+}
+.slide-show:hover .flex-direction-nav a.flex-prev, 
+.slide-show:hover .flex-direction-nav a.flex-next  {
+ opacity: 1 !important;
+}
+.flex-control-nav {
+bottom: 10px !important;
+}
+.flex-control-paging li a {
+background: url(../images/carouselControls_08.png) no-repeat  0 0 !important;
+width: 15px !important;
+height: 15px !important;
+}
+.flex-control-paging li a:hover,
+.flex-control-paging li a.flex-active {
+background-position: -19px 0 !important;
+}
+.flex-control-nav li {
+margin: 0 5px !important;
+}
+

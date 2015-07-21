@@ -1,0 +1,271 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat|Josefin+Slab|Audiowide|Freckle+Face|Exo+2|Hammersmith+One|Ceviche+One|Open+Sans);
+/*
+
+!!!!!!!!!! WARNING !!!!!!!!!!
+
+If you edit theme.css, your changes will be overwritten by any compilation of theme.less
+Please remember to replicate your changes in init.less, or just make your changes in another file if possible
+
+!!!!!!!!!! WARNING !!!!!!!!!!
+
+*/
+/**
+ *   Bigcommerce Outdoor with Less
+ *   – For the Less variables and functions that you don't want available in the Style Editor, declare them in this file.
+ */
+/**
+ *   Bigcommerce Outdoor with Less
+ *
+ *   For compatability with the Bigcommerce Style Editor:
+ *    + Import your Google fonts first
+ *
+ *    + Declare your fonts for use in the editor by using '@font-declaration' (JSON format)
+ *      eg @font-declaration: '{ "Open Sans":["Open Sans","Arial","sans-serif"], "Freckle Face":["Freckle Face","cursive"] }'
+ *
+ *    + Declare your color palette for use in the editor by using '@color-declaration'
+ *      eg @color-declaration: '["#333", "#1399BE", "#EDEDED", "#FFF"]';
+ *
+ *    + Prefix fonts with '@font-' for the style editor to make it editable by the end user
+ *
+ *    + Prefix colors with '@color-' for the style editor to make it editable by the end user
+ *
+ *    + Prefix settings with '@setting-' for the style editor to make it adjustable by the end user
+ */
+/**
+ *   Declarations    
+ */
+/**
+ *   Bigcommerce Outdoor
+ *   Style Initialisation
+ */
+#TopMenu {
+  background-color: #312e29;
+}
+#TopMenu {
+  border-bottom: 1px solid #312e29;
+}
+#TopMenu .currency-converter {
+  background-color: #312e29;
+}
+#TopMenu .FloatRight {
+  background-color: #312e29;
+}
+#TopMenu a {
+  color: #faf9f8;
+}
+a {
+  color: #ed6e41;
+}
+#TopMenu .checkout {
+  background-color: #ed6e41;
+}
+#TopMenu .selCurr,
+#TopMenu a:hover {
+  color: #ed6e41;
+}
+#Logo a {
+  color: #312e29;
+}
+#HeaderLower a {
+  color: #ffffff;
+}
+#HeaderLower li a {
+  border-left: 1px solid #ffffff;
+}
+#HeaderLower li ul li a {
+  color: #ed6e41;
+}
+#FooterUpper {
+  background-color: #e7e8e7;
+}
+#FooterUpper .Column h2 {
+  color: #312e29;
+  border-bottom: 1px solid #a6a39e;
+}
+#FooterUpper .Column li a {
+  color: #312e29;
+}
+#FooterUpper .Column input.Button {
+  background-color: #312e29;
+  border-color: #23211d;
+}
+#FooterUpper .Column input.Button:hover {
+  background-color: #ed6e41;
+  border-color: #eb5c2a;
+}
+.RecentNews li {
+  border-bottom: 1px solid #a6a39e;
+}
+.Content.Widest {
+  background-color: #ffffff;
+}
+#Wrapper {
+  background-color: #ffffff;
+}
+#HomeFeaturedProducts h2 {
+  color: #312e29;
+}
+#HomeNewProducts h2 {
+  color: #312e29;
+}
+#HomeFeaturedProducts .ProductList li .ProductDetails a {
+  color: #4c4944 !important;
+}
+#HomeNewProducts .ProductList li .ProductDetails a {
+  color: #4c4944 !important;
+}
+#HomeFeaturedProducts .ProductDetails em {
+  color: #4c4944;
+}
+#HomeNewProducts .ProductDetails em {
+  color: #4c4944;
+}
+#HomeFeaturedProducts .ProductActionAdd a.Choose,
+#HomeFeaturedProducts .ProductList li .ProductActionAdd a,
+#HomeNewProducts .ProductList li .ProductActionAdd a {
+  background-color: #ed6e41;
+  border-color: #eb5c2a;
+}
+#HomeFeaturedProducts .ProductActionAdd a.Choose:hover,
+#HomeFeaturedProducts .ProductList li .ProductActionAdd a:hover,
+#HomeNewProducts .ProductList li .ProductActionAdd a:hover {
+  background-color: #312e29;
+  border-color: #333;
+}
+.ProductMain h5.brandName a {
+  color: #312e29;
+}
+#ProductDetails h1 {
+  color: #312e29 !important;
+}
+#SimilarProductsByCustomerViews .ProductList li .ProductDetails a {
+  color: #312e29 !important;
+}
+.ProductPriceWrap .PriceRow em {
+  color: #312e29;
+}
+.ProductAside .ProductList li .ProductDetails em {
+  color: #312e29;
+}
+#prodAccordion .Block h2 {
+  color: #312e29 !important;
+}
+#SimilarProductsByCustomerViews h2 {
+  color: #312e29 !important;
+}
+#ProductDetails .prodAccordionContent {
+  color: #312e29;
+}
+.ProductDetailsGrid .Label {
+  color: #312e29;
+}
+div.selector span {
+  color: #312e29;
+}
+#ProductDetails .ProductMain {
+  color: #312e29;
+}
+#ProductDetails .btn.btn-secondary,
+.btn.btn-secondary {
+  background-color: #ed6e41;
+  border-color: #eb5c2a;
+}
+#ProductDetails .btn.btn-secondary:hover,
+.btn.btn-secondary:hover {
+  background-color: #465667;
+  border-color: #354353;
+}
+input.WishListButton,
+#SideProductAddToWishList .btn {
+  color: #425666 !important;
+}
+.ProductMain h1,
+#QuickViewProductDetails h1 {
+  color: #312e29 !important;
+}
+#QuickViewProductDetails p {
+  color: #312e29;
+}
+#QuickViewProductDetails .productAttributeLabel {
+  color: #312e29;
+}
+#QuickViewProductDetails {
+  color: #312e29;
+}
+#ModalContent a,
+.ModalContent a {
+  color: #312e29;
+}
+#CategoryHeading h1 {
+  color: #312e29;
+}
+.Left .CategoryList h2,
+.Left #SideNewProducts h2 {
+  color: #312e29;
+}
+.Left #SideCategoryList li a {
+  color: #4c4944;
+}
+#CategoryContent .ProductList li .ProductDetails a {
+  color: #4c4944;
+}
+#CategoryContent .ProductList li .ProductDetails em,
+#CategoryContent .ProductList .ProductPrice {
+  color: #4c4944;
+}
+.ProductList li .ProductCompareButton {
+  color: #312e29;
+}
+#CategoryContent .ProductList li .ProductActionAdd a {
+  background-color: #ed6e41;
+  border-color: #eb5c2a;
+}
+#CategoryContent .btn {
+  background-color: #465667;
+  border-color: #3c4958;
+}
+.ProductList .ProductDetails {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+  font-family: "Questrial", Sans-serif !important;
+}
+/* --- Faceted Search --- */
+.facet-container {
+  border-top: 1px solid #e7e8e7;
+}
+.facet-container [class^="js-facet-clear"] {
+  color: #9d9589;
+}
+.facet-container [class^="js-facet-clear"]:hover {
+  color: #696257;
+}
+.facet-container .btn-facet-more-options.more {
+  color: #312e29;
+}
+.facet-container .btn-facet-more-options.more:hover {
+  color: #312e29;
+}
+.facet-container .facet-option:hover {
+  background: #e7e8e7;
+}
+.facet-container .facet-option .facet-option-product-count {
+  color: #9d9589;
+}
+.facet-container .facet-form .btn {
+  background-color: #ed6e41;
+}
+.js-faceted-search-container > [class^='js-facet-']:last-of-type .facet-container {
+  border-bottom: 1px solid #e7e8e7;
+}
